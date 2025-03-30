@@ -1,0 +1,20 @@
+:root {
+    --income-color: #4CAF50;
+    --expense-color: #F44336;
+  }
+  
+  .finance-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+  
+  .balance-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .positive { color: var(--income-color); }
+  .negative { color: var(--expense-color); }
